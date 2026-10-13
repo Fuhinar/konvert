@@ -2,9 +2,9 @@
 const VERSION = 'konvert-v1';
 const FILES = [
   './', './index.html', './manifest.webmanifest',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
-  './fonts/bricolage-grotesque-latin-500-normal.woff2', './fonts/bricolage-grotesque-latin-700-normal.woff2',
-  './fonts/instrument-sans-latin-400-normal.woff2', './fonts/instrument-sans-latin-500-normal.woff2', './fonts/instrument-sans-latin-600-normal.woff2'
+  './icon-192.png', './icon-512.png', './apple-touch-icon.png',
+  './bricolage-grotesque-latin-500-normal.woff2', './bricolage-grotesque-latin-700-normal.woff2',
+  './instrument-sans-latin-400-normal.woff2', './instrument-sans-latin-500-normal.woff2', './instrument-sans-latin-600-normal.woff2'
 ];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
