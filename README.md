@@ -1,5 +1,5 @@
 # Konvert Budget
 
-Personal finance tracker for iPhone. Works offline. All data stays in the browser on the phone.
+Учёт личных финансов для iPhone. Работает без интернета, все данные хранятся только в браузере телефона.
 
-Open the site in Safari, tap Share, then "Add to Home Screen".
+Открой сайт в Safari, нажми «Поделиться» → «На экран “Домой”».
